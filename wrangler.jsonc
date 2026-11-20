@@ -1,0 +1,12 @@
+{
+  "name": "sainstrivia",
+  "main": "src/index.js",
+  "compatibility_date": "2026-11-18",
+  "assets": {
+    "directory": "./public",
+    "binding": "ASSETS"
+  }
+  // Bind D1 Database "LOBBY_DB" dan Environment Variable "APPS_SCRIPT_URL"
+  // langsung melalui Cloudflare Dashboard > Workers & Pages > Settings > Bindings / Variables
+  // (atau tambahkan blok "d1_databases" di sini dengan database_id milikmu).
+}
